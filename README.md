@@ -6,41 +6,42 @@
 ▓▓                 ██║████╔╝  ██████╔╝    ██║     ███████║██████╔╝            ▓▓
 ▓▓            ██   ██║██╔╝██╗ ██╔══██╗    ██║     ██╔══██║██╔══██╗            ▓▓
 ▓▓            ╚█████╔╝██║  ██╗██║  ██║    ███████╗██║  ██║██████╔╝            ▓▓
-▓▓             ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═════╝            ▓▓
+▓▓             ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═════╝             ▓▓
 ▓▓                                                                            ▓▓
 ▓▓         jkr-lab.ca  |  Proxmox  |  Self-Hosted  |  Always Breaking         ▓▓
 ▓▓                                                                            ▓▓
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ```
 
-I like getting into the weeds — setting things up, figuring out why they broke,
-and finding better ways to do it. Most of what I know comes from hands-on work
-rather than just reading about it.
+I learn by breaking things and figuring out why — two years of hands-on homelab work has taught me more about networking, security, and infrastructure than any course could on its own.
 
-Running a self-hosted homelab on a Lenovo M720q Tiny with Proxmox — 2 VMs and
-20 LXC containers across 8 categories: gateway, security, monitoring, media,
-automation, and a sandbox for intentionally vulnerable apps I practice against.
+Running a self-hosted lab on a Lenovo M720q Tiny with Proxmox — 2 VMs and 22 LXC containers across 8 service categories with full network segmentation, a perimeter stack built around OPNsense, and a dedicated sandbox of intentionally vulnerable applications I actively practice against.
 
 ---
 
-**Certs**
+**Certifications**
 - CompTIA Security+
-- CompTIA CySA+ *(in progress)*
+- CompTIA CySA+ *(expected September 2026)*
+
+**Technical focus**
+- Perimeter security — OPNsense firewall, IDS/IPS via CrowdSec, DNS filtering with AdGuard Home
+- Authentication & identity — Authentik SSO, MFA enforcement across services
+- SIEM & threat detection — Wazuh for log analysis and endpoint monitoring
+- Network segmentation — 9 subnets, reverse proxy via Caddy with wildcard TLS
+- Web app security — hands-on practice with DVWA, OWASP Juice Shop, WebGoat, DVGA
+
+**CTF & training**
+- TryHackMe & HackTheBox — completed available challenge rooms across web app, network, and blue team tracks
 
 **Interests**
 - Homelabbing & self-hosting
-- Network security & monitoring
-- Vulnerability research & web app security
-
-**Currently exploring**
-- Wazuh + CrowdSec for SIEM and threat detection
-- OPNsense with network segmentation across 9 subnets
-- Web app vulnerabilities via DVWA, Juice Shop, WebGoat, DVGA
+- Network and perimeter security
+- Vulnerability research & web application security
 
 ---
 
 **Projects**
-- [homelab](https://github.com/jkr-labs/homelab) — Proxmox setup, self-hosted services, config backups
+- [homelab](https://github.com/jkr-labs/homelab) — Proxmox setup, LXC containers, network config, and service documentation
 
 ---
 
